@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Form</title>
+</head>
+<body>
+    <header aria-level="1" id="top">
+        <table align="center">
+            <tr>
+                <td>
+                     <nav aria-label="Main navigation">
+                        <a href="./index.html">My profile</a> &nbsp;&nbsp;&nbsp;
+                        <a href="./form.html">Application Form</a>
+                    </nav>
+                </td>
+            </tr>
+        </table>
+    </header>   
+    <main aria-level="1" id="top">
+        <!--I used table element to align the form to the center-->
+            <table align="center">
+                <tr>
+                    <td>
+                        <h1>AltSchool Application Form</h1>
+                        <fieldset>
+                            <h2>Sign up</h2>
+                            <p>Create an account to get started on your learning journey</p> <hr
+                            <aside aria-label="Important information">
+                                <strong>Important:</strong>
+                                Your name will appear on your certificate <br> as entered.
+                            </aside>
+                            <hr>
+                            <form action="#" method="post"> 
+                                <p>
+                                    <label for="email">Email</label><br>
+                                    <input type="email" id="email" name="student" placeholder="john.doe@example.com" size="60" required />
+                                </p>
+
+                                <p>
+                                    <label for="first-name">First name</label><br>
+                                    <input type="text" id="first_name" name="first-name" placeholder="John" size="60" required/>
+                                </p>
+
+                                <p>
+                                    <label for="last-name">Last name</label><br>
+                                    <input type="text" id="last_name" name="last-name" placeholder="Doe" size="60" required/>
+                                </p>
+
+                                <p>
+                                    <label for="phone">Phone number</label><br>
+                                    <input type="tel" id="phone_number" name="phone" size="60" placeholder="+1234567890"/>
+                                </p>
+
+                                <p>
+                                    <label for="password">Password</label><br>
+                                    <input type="password" id="password" name="password" placeholder="********"  size="60"required/>
+                                </p>
+                                <p> By clicking Create account, I agree to 
+                                    <a href="#">Terms of Use</a> <br>and acknowledge that I have read the
+                                    <a href="#">Privacy Policy</a>.
+                                </p>
+                                <p>
+                                    <button type="submit">Create account</button>
+                                </p>
+                                <p>OR</p>
+                                <button type="button">Login with Google</button>
+                            </form>
+                        </fieldset>    
+                    </td>
+                </tr>
+            </table>   
+        </fieldset>     
+    </main>
+    
+    <footer>
+         <table align="center">
+            <tr>
+                <td>
+                    <address>
+                        Kigali, Rwanda<br>
+                        Email: graceakpoiroro@gmail.com
+                        <a href="mailto:graceakpoiroro@gmail.com">
+                            graceakpoiroro@gmail.com
+                        </a>
+                     </address>
+
+                     <p>
+                        &copy; 2026 Grace Daniyan. All rights reserved.
+                    </p>
+                    <a href="#top">Scroll back to the top &uarr;</a>
+                </td>
+            </tr>
+        </table>
+
+    </footer>
+</body>
+</html>
